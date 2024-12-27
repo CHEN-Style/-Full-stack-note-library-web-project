@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/global.css" />
+</head>
+<body>
+  <div class="Dashboard">
+    <div class="header"></div>
+    <div class="mainScreen">
+      <div class="sidebar">
+        <div class="container">
+          <ul class="nested-list">
+            <li>项 1
+              <ul class="nested-list">
+                <li>子项 1.1
+                  <ul class="nested-list">
+                    <li id="1.1.1">子子项 1.1.1</li>
+                    <li>子子项 1.1.2</li>
+                  </ul>
+                </li>
+                <li>子项 1.2</li>
+              </ul>
+            </li>
+            <li>项 2
+              <ul class="nested-list">
+                <li>子项 2.1</li>
+                <li>子项 2.2</li>
+              </ul>
+            </li>
+            <li>项 3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainContent" id="mainContent"></div>
+    </div>
+  </div>
+  <script src="./src/script.js"></script>
+</body>
+</html>
